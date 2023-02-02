@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+padding: 0;
+margin: 20;
+}
+.header{
+  background-color: black;
+  font-size: x-large;
+  text-align: center;
+  color: white;
+  padding: 1px;
+}
+.button{
+  color: white;
+  background-color: black;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+.container{
+  height: 80vh;
+}
+.flexcenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.quizstart{
+  flex-direction: column;
+  gap:20px;
+}
+.wrapper{
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 10px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.options{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.question{
+  font-weight: bold;
+}
+.option input{
+  margin-right: 5px;
+}
+.wrapper button{
+  background-color: black;
+  color: white;
+  padding: 7px;
+  border-radius: 3px;
+}
+.result{
+  text-align: center;
+
+}
+.result.text{
+  line-height: 2;
+}
+.result button{
+  background-color: black;
+  color: white;
+  padding: 3px 7px;
+  border-radius: 3px;
+  margin-top: 10px;
+
+}
